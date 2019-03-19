@@ -3,4 +3,4 @@ require_once __DIR__ . '/../vendor/autoload.php';
 use TalkingRobot\Talk;
 
 echo Talk::sayHello();
-echo 'V0';
+echo 'V1';
