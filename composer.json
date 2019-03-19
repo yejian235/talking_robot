@@ -1,0 +1,26 @@
+{
+    "name": "yj/talking_robot",
+    "description": "I am a talking robot and an example of composer package.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yejian",
+            "email": "yejian@synway.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+	"php": ">=5.4.7"
+    },
+    "autoload": {
+        "psr-0": {
+            "TalkingRobot": "src/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
